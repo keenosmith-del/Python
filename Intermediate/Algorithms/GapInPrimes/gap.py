@@ -23,9 +23,9 @@ def gap(g, m, n):
     return None
 
 
-# Test
-print(gap(2, 3, 50))      # [3, 5]
-print(gap(2, 5, 7))       # [5, 7]
-print(gap(2, 5, 5))       # None
-print(gap(4, 130, 200))   # [163, 167]
-print(gap(6, 100, 110))   # None
+if __name__ == "__main__":
+    print(gap(2, 3, 50))      # [3, 5]
+    print(gap(2, 5, 7))       # [5, 7]
+    print(gap(2, 5, 5))       # None
+    print(gap(4, 130, 200))   # [163, 167]
+    print(gap(6, 100, 110))   # None
