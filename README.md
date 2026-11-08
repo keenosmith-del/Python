@@ -17,6 +17,11 @@ interval bounds, ranges without pairs, consecutive-prime semantics, perfect
 squares, and importing the solution without running its demonstration prints.
 It does not yet cover all exercises in this repository.
 
+GitHub Actions runs this same suite on Python 3.12 and 3.15 for pull requests
+and pushes to `main`. No third-party packages, credentials or external services
+are needed. The workflow tests the existing exercises; it does not deploy or
+publish anything.
+
 Run the original demonstration directly:
 
 ```sh
